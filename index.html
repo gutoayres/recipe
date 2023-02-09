@@ -3,60 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Receita</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+   rel="stylesheet"/>
+    <title>Coxinha Fit</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>  
-    <main>
-        <h1>Receita de Coxinha Fit</h1>
-    
-
-    <figure>
-        <img src="./assets/coxinha.jpg" alt="Coxinha Fit" width="600px" />
-        <figcaption>Coxinha Fit</figcaption>
-     </figure>
-
-     <h2>Ingredientes</h2>
-        <strong>
-            <p>Massa:</p>
-        </strong>
-
-        <ul>
-           <li>1 xícara de batata doce cozida e amassada com sal (a gosto)</li> 
-           <li>Linhaça</li>
-
-         
+<body>
+    <div class="container">
+        <header class="principal">
+            <h1>Receita de Coxinha Fit</h1>
+            <figure>
+                <div id="bg">
+                <img src="./assets/coxinha.jpg" alt="Coxinha" width="100%"  height="600px"> 
+                </div>
+                <figcaption class="legend"> Receita de Coxinha Fit</figcaption>
+            </figure>
             
-        </ul>
+        </header>
+        <main class="content">
+            
+            <h2>INGREDIENTES DA MASSA</h2>
+            <hr>
+            <br>
+                <ul>
+                    <li>1 xícara de batata doce cozida e amassada com sal (a gosto)</li> 
+                    <li>Linhaça</li> 
+                </ul>
+                <br>
 
-        <p><strong>Recheio</strong></p>
-        <ul>
-            <li>1 xícara de frango cozido temperado e desfiado</li>
-        </ul>
+                <h2>INGREDIENTES DO RECHEIO</h2>
+                <hr>
+                <br>
 
-        <h2>Modo de Preparo</h2>
+                <ul>
+                    <li>1 xícara de frango cozido temperado e desfiado</li> 
+                </ul>
+                <br>
 
-        <ol>
-            <li>Bata a linhaça no liquidificador e separe.</li>
-            <li>Faça um bolinho com a batata amassada.</li>
-            <li>Recheie com o frango desfiado</li>
-            <li>Deixe no formato de coxinha e depois passe a farinha da linhaça.</li>
-            <li>Coloque no forno a 180ºC por 30 minutos ou até dourar.</li>
-        </ol>
 
-        <h2>Informações Adicionais</h2>
-            <p>
-                O prepara dura em torno de 45 minutos e o rendimento aproximado é de 5 porções. As coxinhas fit podem ser uma ótima opçãso de lanche pré ou pós treino.
-            </p>
-    </main>
-<hr>
-    <footer>
-        <p>
-            Feito por: Gutierrez Ayres 
-            <br> Veja <a href="https://github.com/gutoayres/recipe">aqui</a> os códigos da página em meu Github 
-        </p>
-    </footer>
-    
+                <h2>MODO DE PREPARO</h2>
+                <hr>
+                <br>
 
+                    <ol>
+                        <li>Bata a linhaça no liquidificador e separe.</li>
+                        <li>Faça um bolinho com a batata amassada.</li>
+                        <li>Recheie com o frango desfiado</li>
+                        <li>Deixe no formato de coxinha e depois passe a farinha da linhaça.</li>
+                        <li>Coloque no forno a 180ºC por 30 minutos ou até dourar.</li>
+                    </ol>
+                    <br>
+
+                    <aside>
+                        <h2>INFORMAÇÕES ADICIONAIS</h2>
+                        <hr>
+                        <br>
+
+                            <p>Tempo de preparo de aproximadamente 45 minutos. Rende aproximadamente 5 porções</p>
+                            <p><em>Bom apetite! 🤤</em></p> 
+                    </aside>
+                    
+        </main>
+</div>        
+        <footer class="credits">
+            Veja <a href="https://github.com/gutoayres/recipe">aqui</a> os códigos da página da receita
+            By: Guto Ayes 😛
+        </footer>
 </body>
 </html>
